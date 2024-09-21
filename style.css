@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ background-color:#5d6c6d;
+ font-family: Nerko One;
+}
+h1{
+    padding: 5px;
+    font-size: 2.3rem;
+    text-align: center;
+    background-color: #11270b;
+    color: #598b2c;
+    height: 3rem;
+    line-height: 50px;
+    border-radius: 15px 15px 0  0 ;
+    padding: 10px 20px;
+}
+h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #3c5a14;
+    background-color: inherit;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: inherit;
+} 
+p{
+    background-color: inherit;
+    margin: 5px;
+}
+.btns-cont{
+  display: flex;
+  width: 70%;
+  background-color: inherit;
+  justify-content: space-evenly;
+}
+.btns{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.btns:hover{
+    color:#ccc9e7;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: inherit;
+}
+.outer{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 16rem;
+    height: 16rem;
+    background-color: inherit;
+}
+.inner{
+    width: 5rem;
+    height: 5rem;
+    background-color: inherit;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 3rem;
+    color: #3c5a14;
+    border: 0;
+}
+.bt{
+    border-top: 3px solid #2e3138;
+}
+.bb{
+    border-bottom: 3px solid #2e3138; 
+}
+.br{
+    border-right: 3px solid #2e3138;
+}
+.bl{
+    border-left: 3px solid #2e3138;
+}
+.game-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin: 10px 0;
+    box-shadow: 1px 1px 15px #1f2023;
+    border-radius: 25px;
+    background-color: #ccc9e7; 
+    /* height: 39rem;   */
+}
+#restart{
+    margin: 45px 0;
+    padding: 15px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: #71b340;
+    background-color: #11270b;
+}
