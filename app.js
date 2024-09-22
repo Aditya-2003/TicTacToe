@@ -123,6 +123,7 @@ function mediumMove() {
 }
 
 async function playComputer() {
+    reset();
     level = await chooseLevel();
     // console.log('Playing Computer',level);
     choose.innerHTML = `<p>Opponent : Computer | Level : ${level} </p>`;
@@ -190,6 +191,7 @@ async function playComputer() {
 
 function playHuman(){
     // console.log('play Human');
+    reset();
     enableBtn();
     boxes.forEach((box) => {
         box.addEventListener('click',function(){    
