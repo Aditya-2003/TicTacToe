@@ -219,6 +219,14 @@ function playHuman(){
     })
 }
 
+function reset() {
+    boxes.forEach((box) => {
+        let newBox = box.cloneNode(true);  // create a  clone  of box to remove all listeners
+        box.parentNode.replaceChild(newBox, box);  // replace the old box with the new box having no listners
+    });
+    boxes = Array.from(document.querySelectorAll('.inner'));  
+}
+
 async function startGame(){
    let op = await chooseOppponent();
    disableBtn();
@@ -246,7 +254,7 @@ restartBtn.addEventListener('click', function(){
         box.innerText  = "";
     })
     h2.innerText = "Play Game";
-    
+    reset();
     startGame();
 })
 
