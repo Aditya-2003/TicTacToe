@@ -24,8 +24,5 @@ A browser-based Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript
 
 ## 📂 How to Run
 
-Clone this repository and open `index.html` in your browser:
-```bash
-git clone https://github.com/Aditya-2003/tictactoe.git
-cd tictactoe
-open index.html  # or double click it in file explorer
+1. Open any Browser
+2. Search `adityastictactoe.netlify.app` and Press Enter
