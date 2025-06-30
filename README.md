@@ -26,6 +26,6 @@ A browser-based Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript
 
 Clone this repository and open `index.html` in your browser:
 ```bash
-git clone https://github.com/yourusername/tictactoe.git
+git clone https://github.com/Aditya-2003/tictactoe.git
 cd tictactoe
 open index.html  # or double click it in file explorer
